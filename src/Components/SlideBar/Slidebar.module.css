@@ -1,0 +1,30 @@
+.Slidebar{
+    flex: 0.2;
+    background-color: #0b0b5a;
+    color: white;
+    height: 100vh;
+    flex-shrink: 0;
+}
+.SliderbarICon{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SlidebarTopContent{
+    font-size: 26px;
+}
+.SlidebarOptionsBlock{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.selectedOption{
+    background-color: rgb(72, 72, 222);
+}
